@@ -12,7 +12,7 @@ def sigmoid(x):
     s=1/(1+np.exp(-x))
     return s
 
-#训练神经网络
+#训练神经网络 liuxuefei
 def learning(all_value,w_input2hide,w_hide2output):
     all_value=all_value
     w_input2hide=w_input2hide
